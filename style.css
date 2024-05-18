@@ -1,9 +1,27 @@
-*{
+@font-face {
+    font-family: 'Aqua Grotesque';
+    src: url('./fonts/aqua.ttf');
+}
+
+@font-face {
+    font-family: 'streamster';
+    src: url('./fonts/Streamster.ttf');
+}
+
+@font-face {
+    font-family: 'odachi';
+    src: url('./fonts/Odachi.ttf');
+}
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
 }
 
@@ -51,8 +69,148 @@ html,body{
 }
 
 
-.scrollbar::-webkit-scrollbar{
+.scrollbar::-webkit-scrollbar {
     display: none;
 }
 
 
+
+
+
+.agency {
+    font-family: 'Agency FB';
+}
+
+.Helvetica {
+    font-family: 'Helvetica';
+}
+
+.aqua {
+    font-family: 'Aqua Grotesque';
+}
+
+.streamster {
+    font-family: 'streamster';
+}
+
+.odachi {
+    font-family: 'odachi';
+}
+
+.circle span {
+    height: 70%;
+    position: absolute;
+    width: 20px;
+    left: 37%;
+    top: -20%;
+    transform-origin: bottom center;
+}
+
+.char1 {
+    transform: rotate(12deg);
+}
+
+.char2 {
+    transform: rotate(24deg);
+}
+
+.char3 {
+    transform: rotate(36deg);
+}
+
+.char4 {
+    transform: rotate(48deg);
+}
+
+.char5 {
+    transform: rotate(60deg);
+}
+
+.char6 {
+    transform: rotate(72deg);
+}
+
+.char7 {
+    transform: rotate(84deg);
+}
+
+.char8 {
+    transform: rotate(96deg);
+}
+
+.char9 {
+    transform: rotate(108deg);
+}
+
+.char10 {
+    transform: rotate(120deg);
+}
+
+.char11 {
+    transform: rotate(132deg);
+}
+
+
+.char12 {
+    transform: rotate(144deg);
+}
+
+.char13 {
+    transform: rotate(160deg);
+}
+
+.char14 {
+    transform: rotate(178deg);
+}
+
+.char15 {
+    transform: rotate(190deg);
+}
+
+.char16 {
+    transform: rotate(200deg);
+}
+
+.char17 {
+    transform: rotate(215deg);
+}
+
+.char19 {
+    transform: rotate(235deg);
+}
+
+.char20 {
+    transform: rotate(250deg);
+}
+
+.char21 {
+    transform: rotate(260deg);
+}
+
+.char22 {
+    transform: rotate(272deg);
+}
+
+.char23 {
+    transform: rotate(285deg);
+}
+
+.char24 {
+    transform: rotate(306deg);
+}
+
+.char25 {
+    transform: rotate(320deg);
+}
+
+.char26 {
+    transform: rotate(330deg);
+}
+
+.char27 {
+    transform: rotate(340deg);
+}
+
+.char28 {
+    transform: rotate(352deg);
+}
