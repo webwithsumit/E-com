@@ -14,8 +14,6 @@ gsap.from('#glitch', {
 
 
 
-
-
 // footer animation ----------------------------------------------------------------
 
 document.querySelectorAll('.upper h1').forEach((e, i) => {
@@ -42,4 +40,25 @@ document.querySelectorAll('.upper h1').forEach((e, i) => {
 })
 
 
-
+//Swiper Animation-----------------------------------------
+var swiper5 = new Swiper(".mySwiper2", {
+    loop: true,
+    slidesPerView: "auto",
+    direction: 'vertical',
+    grabCursor: true,
+    effect: "creative",
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
+    creativeEffect: {
+        prev: {
+            // shadow: true,
+            translate: [0, "-120%", -500],
+        },
+        next: {
+            // shadow: true,
+            translate: [0, "120%", -500],
+        },
+    },
+});
