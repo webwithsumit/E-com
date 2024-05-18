@@ -1,16 +1,14 @@
 
 // landing page animation ----------------------------------------------------------------
 
-gsap.from('#glitch', {
-    scale: 1.6,
-    duration: 1,
-    ease: "bounce.out",
-    onComplete: function () {this._targets[0].remove() }
-})
-
-
-
-
+function landingJs(){
+    gsap.from('#glitch', {
+        scale: 1.6,
+        duration: 1,
+        ease: "bounce.out",
+        onComplete: function () {this._targets[0].remove() }
+    })
+}
 
 
 
@@ -43,4 +41,6 @@ function footerJs(){
     })
 }
 
+landingJs();
+footerJs();
 
