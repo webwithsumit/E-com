@@ -12,8 +12,6 @@ function landingJs(){
 
 
 
-
-
 // footer animation ----------------------------------------------------------------
 
 function footerJs(){
@@ -40,8 +38,6 @@ function footerJs(){
         })
     })
 }
-
-
 
 
 // category
@@ -349,10 +345,33 @@ gsapAnimeCards()
 }
 
 
+function featuresJs(){
+    var swiper5 = new Swiper(".mySwiper2", {
+        loop: true,
+        slidesPerView: "auto",
+        direction: 'vertical',
+        grabCursor: true,
+        effect: "creative",
+        autoplay: {
+            delay: 900,
+            disableOnInteraction: false,
+        },
+        creativeEffect: {
+            prev: {
+                translate: [0, "-120%", -500],
+            },
+            next: {
+                translate: [0, "120%", -500],
+            },
+        },
+    });
+}
+
 
 
 
 landingJs();
 footerJs();
-categoryJs()
+categoryJs();
+featuresJs();
 
