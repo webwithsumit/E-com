@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+
+
+#glitch::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('./images/bg/bread_happy_cropped_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .4;
+    animation: glitch ease-in-out .6s infinite forwards;
+}
+
+@keyframes glitch {
+    0% {
+        background-position: center;
+        filter: hue-rotate(50deg);
+    }
+
+    25% {
+        background-position: 10px center;
+
+    }
+
+    50% {
+        background-position: 0px center;
+
+    }
+
+    75% {
+        background-position: 10px center;
+    }
+
+    100% {
+        background-position: center;
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+
